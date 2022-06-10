@@ -8,7 +8,6 @@ const substitutionModule = (function () {
 
   function substitution(input, alphabet, encode = true) {
     // your solution code here
-    console.log(alphabet);
     if(!alphabet || (alphabet.length!== 26) || !isUnique(alphabet)) {
       return false;
     }
